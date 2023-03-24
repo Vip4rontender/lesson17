@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 17</title>
+  </head>
+  <body>
+    <script>
+      console.log(
+        "You can ignore single and double quotes like this: \\'\\' \\\" \\\""
+      );
+
+      //   Task 2
+
+      alert(`Please enter your data`);
+
+      let userName = prompt("Enter your name", "Name");
+      alert(`Your name is: ${userName}`);
+
+      let surName = prompt("Enter your surname", "Surname");
+      alert(`Your full name is: ${userName} ${surName}`);
+
+      let age = prompt("How old are you?", "Age");
+      alert(`Your full name is: ${userName} ${surName}, your age is: ${age}`);
+
+      let admin = confirm("Are you admin?");
+      alert(
+        `Your full name is: ${userName} ${surName}, your age is: ${age}, admin status: ${admin}`
+      );
+    </script>
+  </body>
+</html>
